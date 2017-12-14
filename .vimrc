@@ -1,5 +1,9 @@
 "============================================================
 " Plugins
+"
+" vim-plug
+" Minimalist Vim Plugin Manager
+" https://github.com/junegunn/vim-plug
 "============================================================
 call plug#begin('~/.vim/plugged')
 
@@ -43,7 +47,7 @@ set expandtab                   " use spaces, not tabs (optional)
 set hlsearch                    " highlight matches
 set incsearch                   " incremental searching
 
-"" File naviagation
+"" File navigation
 set wildmenu
 set path=**
 set viminfo='10
@@ -53,20 +57,15 @@ set stl+=%{expand('%:~:.')}
 "============================================================
 " Misc
 "============================================================
+
+" Highlight trailing whitespace
 highlight ExtraWhitespace ctermbg=red guibg=red
 autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
 
-
 " vim-airline
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#buffer_nr_show = 1 " https://github.com/bling/vim-bufferline/issues/20
-"let g:airline_theme='luna'
-"let g:airline_powerline_fonts = 1
 
-" write the current buffer automatically on each <Esc> in INSERT mode.
-" inoremap <Esc> <Esc>:w<CR>    " this will broke arraw-keys in INSERT mode
+set scrolloff=3                 " scrolls the text so that (when possible) there are always at least five lines visible above the curso
 
-" Show @@@ in the last line if it is truncated.
-set display=truncate
-set scrolloff=3
