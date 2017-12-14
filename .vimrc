@@ -1,23 +1,31 @@
 "============================================================
 " Plugins
 "============================================================
-
-" Plugins will be downloaded under the specified directory.
 call plug#begin('~/.vim/plugged')
 
-" Declare the list of plugins.
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'vim-airline/vim-airline'
+Plug 'jacoborus/tender.vim'
 
-" List ends here. Plugins become visible to Vim after this call.
 call plug#end()
 
 
 "============================================================
 " Settings
 "============================================================
-syntax on
+
+" Color & Theme
+if (has("termguicolors"))
+  set termguicolors
+endif
+
+" Theme
+syntax enable
+colorscheme tender
+
+" Misc
+
 set nocompatible                " choose no compatibility with legacy vi
-set clipboard=unnamed           " use os clipboard
 set encoding=utf-8
 set ruler
 set showcmd                     " display incomplete commands
@@ -40,6 +48,21 @@ set wildmenu
 set path=**
 set viminfo='10
 set stl+=%{expand('%:~:.')}
+
+
+"============================================================
+" Misc
+"============================================================
+highlight ExtraWhitespace ctermbg=red guibg=red
+autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
+match ExtraWhitespace /\s\+$/
+
+
+" vim-airline
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#buffer_nr_show = 1 " https://github.com/bling/vim-bufferline/issues/20
+"let g:airline_theme='luna'
+"let g:airline_powerline_fonts = 1
 
 " write the current buffer automatically on each <Esc> in INSERT mode.
 " inoremap <Esc> <Esc>:w<CR>    " this will broke arraw-keys in INSERT mode
