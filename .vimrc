@@ -33,8 +33,9 @@ endif
 " Color & Theme
 syntax enable
 
-colorscheme oxeded
+colorscheme codeschool
 
+"colorscheme oxeded
 "colorscheme base16-railscasts
 "colorscheme lucius
 "colorscheme corporation
