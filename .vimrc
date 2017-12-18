@@ -5,7 +5,7 @@
 " Minimalist Vim Plugin Manager
 " https://github.com/junegunn/vim-plug
 "============================================================
-call plug#begin('~/.vim/plugged')
+call plug#begin('~/.local/share/nvim/plugged')
 
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'vim-airline/vim-airline'
@@ -24,7 +24,7 @@ call plug#end()
 "============================================================
 " Settings
 "============================================================
-" colr fix for custom colors
+" colors fix for custom colors
 if (has("termguicolors"))
   set termguicolors
 endif
@@ -100,6 +100,7 @@ set path=**
 set viminfo='10                 " browse oldfiles, display N-last opened
 set stl+=%{expand('%:~:.')}
 
+set autowriteall                " == auto-save in RubyMine
 
 "============================================================
 " Misc
@@ -110,17 +111,12 @@ highlight ExtraWhitespace ctermbg=red guibg=red
 autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
 
+" Spell check highlight
+highlight SpellBad ctermfg=009 ctermbg=011 guifg=#FC7675 guibg=#FED7D7
+set spellfile=$HOME/.vim/spell/en.utf-8.add
 " vim-airline
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#buffer_nr_show = 1 " https://github.com/bling/vim-bufferline/issues/20
-
-
-" persistent history
-if !isdirectory("/tmp/.vim-undo-dir")
-  call mkdir("/tmp/.vim-undo-dir", "", 0700)
-endif
-set undodir=/tmp/.vim-undo-dir
-set undofile
 
 
 "============================================================
@@ -132,3 +128,4 @@ set undofile
 map <F2> :mksession! ~/vim_session <cr>  " Quick write session with F2
 map <F3> :source ~/vim_session <cr>      " And load session with F3
 
+:map <Leader>bb Obyebug<Esc>    " Insert 'byebug' before current line
