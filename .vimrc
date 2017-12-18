@@ -32,51 +32,8 @@ endif
 
 " Color & Theme
 syntax enable
-
 colorscheme codeschool
 
-"colorscheme oxeded
-"colorscheme base16-railscasts
-"colorscheme lucius
-"colorscheme corporation
-"colorscheme seoul256           " https://github.com/junegunn/seoul256.vim | let g:seoul256_background = 233
-"colorscheme jelleybeans        " looks like RailsCasts, event better
-"colorscheme xoria256
-"colorscheme oceanblack
-"colorscheme transparent
-"colorscheme rootwater
-"colorscheme molokai            " Molokai is definitely the most mature dark scheme
-"colorscheme moria              " marshmallow colors, good with dark and light backgdound
-"colorscheme railscasts         " RailsCasts like colors
-"colorscheme neon               " looks good, but it is not neon
-"colorscheme no_quarter
-"colorscheme matrix             " 'The Matrix' movie
-"colorscheme lightcolors        " paper style
-"colorscheme laederon           " not bad, with green background
-"colorscheme gor                " not bad, with green background
-"colorscheme golden             " testing now
-"colorscheme freya              " calm colors
-"colorscheme eclipse            " Ecliple IDE colors
-"colorscheme dw_green           " deep green and black
-"colorscheme desertEx           " nice green and yellow
-"colorscheme darker-robin        " nice colors
-"colorscheme cloudy             " Turbo Paclas, calm colors
-"colorscheme chlordane          " only green shades
-"colorscheme candy              " dark pleasend theme
-"colorscheme breeze             " reminds of Windows 95 green background
-"colorscheme borland            " vert blue...
-"colorscheme black_angus        " green and gray colors
-"colorscheme bensday            " nice purpul and yellow colors
-"colorscheme dracula
-"colorscheme badwolf            " high contrast theme
-"colorscheme PaperColor         " nice when background=light
-"colorscheme seti
-"colorscheme tender             " good, nice and clear
-"colorscheme spring-night       " good, nice and clear
-"colorscheme iceberg
-"colorscheme farout
-"colorscheme fahrenheit         " very dark, unclear
-"colorscheme orbital
 
 "" Misc
 set nocompatible                " choose no compatibility with legacy vi
