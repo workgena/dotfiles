@@ -32,8 +32,9 @@ endif
 
 " Color & Theme
 syntax enable
-colorscheme codeschool
 
+colorscheme gruvbox
+set bg=dark
 
 "" Misc
 set nocompatible                " choose no compatibility with legacy vi
@@ -57,7 +58,6 @@ set path=**
 set viminfo='10                 " browse oldfiles, display N-last opened
 set stl+=%{expand('%:~:.')}
 
-set autowriteall                " == auto-save in RubyMine
 
 "============================================================
 " Misc
