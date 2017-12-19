@@ -1,0 +1,8 @@
+# This is Git's per-user configuration file.
+[user]
+  name = Gena
+  email = workgena@gmail.com
+[alias]
+  s = status
+  d = diff
+  c = commit
