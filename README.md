@@ -63,3 +63,20 @@ A set of vim, zsh, git, and tmux configuration files
 * [Getting Started with Vim](https://www.sitepoint.com/getting-started-vim/)
 * [Effective Rails Development with Vim](https://www.sitepoint.com/effective-rails-development-vim/)
 * [VIM Adventures](https://vim-adventures.com/) - Learn VIM while playing a game
+
+## Terminal [base16](https://github.com/chriskempson/base16) favourites themes
+* `base16_3024`
+* `base16_apathy`
+* `base16_atelier-dune`
+* `base16_atelier-dune-light`
+* `base16_atelier-estuary-light`
+* `base16_harmonic-dark`
+* `base16_hopscotch`
+* `base16_irblack`
+* `base16_marrakesh`
+* `base16_materia`
+* `base16_atelier-plateau-light`
+* `base16_mexico-light`
+* `base16_brewer`
+* `base16_bright`
+* `base16_chalk`
