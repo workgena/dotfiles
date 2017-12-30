@@ -94,3 +94,13 @@ A set of vim, zsh, git, and tmux configuration files
 * `PxPlus_IBM_VGA8`
 * `Ubuntu Mono`
 * `Source Code ProRegular`
+
+[Easy Way to Improve Font Rendering in Debian Linux](https://youtu.be/ETvs5keGIQ0)
+
+Debian
+Ubuntu font install:
+
+$ wget http://font.ubuntu.com/download/ubuntu-font-family-0.80.zip
+$ unzip ubuntu-font-family-0.80.zip
+$ mkdir -p ~/.fonts
+$ mv ubuntu-font-family-0.80/*.ttf ~/.fonts/
