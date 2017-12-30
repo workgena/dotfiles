@@ -100,7 +100,9 @@ A set of vim, zsh, git, and tmux configuration files
 Debian
 Ubuntu font install:
 
+```
 $ wget http://font.ubuntu.com/download/ubuntu-font-family-0.80.zip
 $ unzip ubuntu-font-family-0.80.zip
 $ mkdir -p ~/.fonts
 $ mv ubuntu-font-family-0.80/*.ttf ~/.fonts/
+```
