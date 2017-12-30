@@ -40,6 +40,7 @@ A set of vim, zsh, git, and tmux configuration files
 * candy
 * breeze
 * borland
+* cobalt2
 * black_angus
 * bensday
 * dracula
