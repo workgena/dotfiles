@@ -80,3 +80,17 @@ A set of vim, zsh, git, and tmux configuration files
 * `base16_brewer`
 * `base16_bright`
 * `base16_chalk`
+
+## Fonts, [Oldschool PC Fonts](https://int10h.org/oldschool-pc-fonts/fontlist/)
+* `Hack`
+* `Edlo`
+* `Inconsolata`
+* `Consolas`
+* `Menlo`
+* `Terminus`
+* `PxPlus_IBM_VGA9` # более разряженный по высоте нежели EGA9
+* `PxPlus_IBM_EGA9`
+* `PxPlus_IBM_EGA8` # EGA9 более разряженный по ширине нежели EGA8
+* `PxPlus_IBM_VGA8`
+* `Ubuntu Mono`
+* `Source Code ProRegular`
