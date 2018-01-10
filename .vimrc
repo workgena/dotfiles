@@ -19,8 +19,8 @@ if has('termguicolors')
   set termguicolors " 24-bit terminal
 endif
 
-"set bg=dark
-colorschem cobalt2
+set bg=dark
+colorschem railscasts
 
 
 "============================================================
