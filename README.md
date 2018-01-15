@@ -85,16 +85,25 @@ A set of vim, zsh, git, and tmux configuration files
 ## Fonts, [Oldschool PC Fonts](https://int10h.org/oldschool-pc-fonts/fontlist/)
 * `Hack`
 * `Edlo`
-* `Inconsolata`
 * `Consolas`
+* `Inconsolata`
+* [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono)
 * `Menlo`
 * `Terminus`
 * `PxPlus_IBM_VGA9` # более разряженный по высоте нежели EGA9
 * `PxPlus_IBM_EGA9`
 * `PxPlus_IBM_EGA8` # EGA9 более разряженный по ширине нежели EGA8
 * `PxPlus_IBM_VGA8`
+* `PxPlus VGA SquaarePx  `
 * `Ubuntu Mono`
 * `Source Code ProRegular`
+* [Nitti PX](https://nomail.com.ua/font-page/31424?name=NittiPX-Normal)
+* [Space Mono](https://fonts.google.com/specimen/Space+Mono)
+* [Fira Mono](https://fonts.google.com/specimen/Fira+Mono)
+* `Monofur` # очень необычен, хорошо отображается, смешной )
+* [Hermit](https://pcaro.es/p/hermit/) # необычный, уникальный
+* [ProFfontIIx Nerd Mono](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/ProFont/profontiix) # очешь просторный, начертание необычное
+
 
 [Easy Way to Improve Font Rendering in Debian Linux](https://youtu.be/ETvs5keGIQ0)
 
