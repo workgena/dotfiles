@@ -2,12 +2,13 @@
 A set of vim, zsh, git, and tmux configuration files
 
 ## Favorite color schemes http://chriskempson.com/projects/base16/
-* base16-tomorrow-night
 * base16-railscasts
+* base16-tomorrow-night
 * base16-ocean
 * base16-oceanicnext
 
 ## Favorite color schemes https://github.com/flazz/vim-colorschemes
+* railscasts
 * codeschool
 * gruvbox `:set bg=dark`
 * oxeded
@@ -22,7 +23,6 @@ A set of vim, zsh, git, and tmux configuration files
 * rootwater
 * molokai
 * moria
-* railscasts
 * neon
 * no_quarter
 * matrix
@@ -83,6 +83,7 @@ A set of vim, zsh, git, and tmux configuration files
 * `base16_chalk`
 
 ## Fonts, [Oldschool PC Fonts](https://int10h.org/oldschool-pc-fonts/fontlist/)
+* `Droid Sans Mono`
 * `Hack`
 * `Edlo`
 * `Consolas`
