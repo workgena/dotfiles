@@ -83,6 +83,7 @@ A set of vim, zsh, git, and tmux configuration files
 * `base16_chalk`
 
 ## Fonts, [Oldschool PC Fonts](https://int10h.org/oldschool-pc-fonts/fontlist/)
+* [Monaco](https://github.com/todylu/monaco.ttf)
 * `Droid Sans Mono`
 * `Hack`
 * `Edlo`
