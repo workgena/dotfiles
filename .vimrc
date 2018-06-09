@@ -2,6 +2,7 @@
 " File navigation
 "============================================================
 set wildmenu
+set wildmode=list:longest,full  " hit `Tab` twice in command mode
 set path=**
 set viminfo='8                  " browse oldfiles, display N-last opened
 
