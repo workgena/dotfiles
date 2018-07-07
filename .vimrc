@@ -4,7 +4,7 @@
 set wildmenu
 set wildmode=list:longest,full  " hit `Tab` twice in command mode
 set path=**
-set viminfo='8                  " browse oldfiles, display N-last opened
+set viminfo='5                  " browse oldfiles, display N-last opened
 
 "============================================================
 " Misc
@@ -43,4 +43,7 @@ set laststatus=0                " never show file name in status - save edit wor
 "============================================================
 " Mappings
 "============================================================
-map <Leader>bb Obyebug<Esc>     " type 'byebug' before current line
+" type 'byebug' before current line
+map <Leader>bb Obyebug<Esc>
+" Space == Enter key in NORMAL mode
+map <Space> <Enter>
