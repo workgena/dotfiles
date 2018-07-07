@@ -6,6 +6,7 @@ Plug 'ervandew/supertab' " `Tab`-button behaves like `C+n`
 Plug 'thaerkh/vim-workspace' " Vim session; auto-save(better then `vim-scripts/vim-auto-save`)
 Plug 'tpope/vim-endwise'
 Plug 'Raimondi/delimitMate'
+Plug 'zhou13/vim-easyescape'
 
 call plug#end()
 
