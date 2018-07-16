@@ -6,6 +6,7 @@
   s = status
   d = diff
   c = commit
+  co = commit
 [core]
   editor = nvim
   excludesfile = ~/.gitignore
