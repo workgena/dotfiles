@@ -1,5 +1,5 @@
 # dotfiles
-A set of vim/terminal/git/etc. configuration files
+A set of vim, terminal, git, etc. configuration files
 
 ## Favorite color schemes http://chriskempson.com/projects/base16/
 * base16-railscasts
