@@ -43,7 +43,9 @@ set laststatus=0                " never show file name in status - save edit wor
 "============================================================
 " Mappings
 "============================================================
-" type 'byebug' before current line
+" type 'byebug' before current line:
 map <Leader>bb Obyebug<Esc>
-" Space == Enter key in NORMAL mode
+" Space == Enter key in NORMAL mode:
 map <Space> <Enter>
+" Spell-check set to F6:
+map <F6> :setlocal spell!<CR>
