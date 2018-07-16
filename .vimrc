@@ -29,6 +29,7 @@ set listchars=tab:>-
 " Trim trailing spaces on Save
 autocmd BufWritePre * :%s/\s\+$//e
 autocmd FileType markdown set wrap linebreak
+autocmd FileType gitcommit set spell
 
 " Spell check highlight
 highlight SpellBad ctermfg=009 ctermbg=011 guifg=#FC7675 guibg=#FED7D7
