@@ -83,6 +83,8 @@ A set of vim, zsh, git, and tmux configuration files
 * `base16_chalk`
 
 ## Fonts, [Oldschool PC Fonts](https://int10h.org/oldschool-pc-fonts/fontlist/)
+* `Source Code Pro Regular` | [homepage](https://adobe-fonts.github.io/source-code-pro/)
+* [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) | [homepage](https://www.ibm.com/plex/) | [Get Plex](https://github.com/IBM/plex/releases/tag/v1.0.2)
 * [Monaco](https://github.com/todylu/monaco.ttf)
 * `Droid Sans Mono`
 * `Hack`
@@ -98,7 +100,6 @@ A set of vim, zsh, git, and tmux configuration files
 * `PxPlus_IBM_VGA8`
 * `PxPlus VGA SquaarePx  `
 * `Ubuntu Mono`
-* `Source Code ProRegular`
 * [Nitti PX](https://nomail.com.ua/font-page/31424?name=NittiPX-Normal)
 * [Space Mono](https://fonts.google.com/specimen/Space+Mono)
 * [Fira Mono](https://fonts.google.com/specimen/Fira+Mono)
