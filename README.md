@@ -59,12 +59,6 @@ A set of vim, zsh, git, and tmux configuration files
 * [fahrenheit](https://github.com/fcpg/vim-fahrenheit)
 * [orbital](https://github.com/fcpg/vim-orbital)
 
-## Vim articles, cheat sheets, tutorials
-* [Vim Cheat Sheet](https://vim.rtorr.com/) and [Vim Commands Cheat Sheet](http://www.fprintf.net/vimCheatSheet.html)
-* [Getting Started with Vim](https://www.sitepoint.com/getting-started-vim/)
-* [Effective Rails Development with Vim](https://www.sitepoint.com/effective-rails-development-vim/)
-* [VIM Adventures](https://vim-adventures.com/) - Learn VIM while playing a game
-
 ## Terminal [base16](https://github.com/chriskempson/base16) favourites themes
 * `base16_3024`
 * `base16_apathy`
@@ -119,3 +113,15 @@ $ unzip ubuntu-font-family-0.80.zip
 $ mkdir -p ~/.fonts
 $ mv ubuntu-font-family-0.80/*.ttf ~/.fonts/
 ```
+
+## Vim articles, cheat sheets, tutorials
+* [Vim Cheat Sheet](https://vim.rtorr.com/) and [Vim Commands Cheat Sheet](http://www.fprintf.net/vimCheatSheet.html)
+* [Getting Started with Vim](https://www.sitepoint.com/getting-started-vim/)
+* [Effective Rails Development with Vim](https://www.sitepoint.com/effective-rails-development-vim/)
+* [VIM Adventures](https://vim-adventures.com/) - Learn VIM while playing a game
+
+## Shell(Terminal emulator)
+- [fish](https://fishshell.com/) is a smart and user-friendly command line
+shell with Autosuggestions just like a web browser.
+  * [Install fish shell in Debian 8](https://gist.github.com/mamiu/c3c0ee8f4cf05030a72e)
+  * [Fish as a default Gnome-Terminal shell](https://askubuntu.com/a/663139)
