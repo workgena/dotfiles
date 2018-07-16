@@ -108,7 +108,7 @@ A set of vim, zsh, git, and tmux configuration files
 * [ProFfontIIx Nerd Mono](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/ProFont/profontiix) # очешь просторный, начертание необычное
 
 
-[Easy Way to Improve Font Rendering in Debian Linux](https://youtu.be/ETvs5keGIQ0)
+[Improve Font Rendering on Debian 8 By Installing Infinality and Ubuntu Fonts](https://www.linuxbabe.com/desktop-linux/improve-font-rendering-on-debian-8-by-install-infinality-and-google-fonts) // Use **OSX** style
 
 Debian
 Ubuntu font install:
