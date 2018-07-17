@@ -26,6 +26,7 @@ if has('termguicolors')
 endif
 
 set background=dark " dark or light
-colorscheme moria
+colorscheme xoria256
+let g:seoul256_background = 233
 
 source /home/virt/.vimrc
