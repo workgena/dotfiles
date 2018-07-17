@@ -77,6 +77,9 @@ A set of vim, terminal, git, etc. configuration files
 * `base16_chalk`
 
 ## Fonts, [Oldschool PC Fonts](https://int10h.org/oldschool-pc-fonts/fontlist/)
+
+[Improve Font Rendering on Debian 8 By Installing Infinality and Ubuntu Fonts](https://www.linuxbabe.com/desktop-linux/improve-font-rendering-on-debian-8-by-install-infinality-and-google-fonts) // Use **OSX** style
+
 * `Source Code Pro Regular` | [homepage](https://adobe-fonts.github.io/source-code-pro/)
 * [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) | [homepage](https://www.ibm.com/plex/) | [Get Plex](https://github.com/IBM/plex/releases/tag/v1.0.2)
 * [Monaco](https://github.com/todylu/monaco.ttf)
@@ -101,19 +104,6 @@ A set of vim, terminal, git, etc. configuration files
 * [Hermit](https://pcaro.es/p/hermit/) # необычный, уникальный
 * [ProFfontIIx Nerd Mono](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/ProFont/profontiix) # очешь просторный, начертание необычное
 
-
-[Improve Font Rendering on Debian 8 By Installing Infinality and Ubuntu Fonts](https://www.linuxbabe.com/desktop-linux/improve-font-rendering-on-debian-8-by-install-infinality-and-google-fonts) // Use **OSX** style
-
-Debian
-Ubuntu font install:
-
-```
-$ wget http://font.ubuntu.com/download/ubuntu-font-family-0.80.zip
-$ unzip ubuntu-font-family-0.80.zip
-$ mkdir -p ~/.fonts
-$ mv ubuntu-font-family-0.80/*.ttf ~/.fonts/
-```
-
 ## Vim articles, cheat sheets, tutorials
 * [Vim Cheat Sheet](https://vim.rtorr.com/) and [Vim Commands Cheat Sheet](http://www.fprintf.net/vimCheatSheet.html)
 * [Getting Started with Vim](https://www.sitepoint.com/getting-started-vim/)
@@ -124,4 +114,5 @@ $ mv ubuntu-font-family-0.80/*.ttf ~/.fonts/
 - [fish](https://fishshell.com/) is a smart and user-friendly command line
 shell with Autosuggestions just like a web browser.
   * [Install fish shell in Debian 8](https://gist.github.com/mamiu/c3c0ee8f4cf05030a72e)
+  * [How to make fish my default shell?](https://github.com/fish-shell/fish-shell#switching-to-fish)
   * [Fish as a default Gnome-Terminal shell](https://askubuntu.com/a/663139)
