@@ -1,5 +1,5 @@
 # dotfiles
-A set of vim, terminal, git, etc. configuration files
+A set of Vim, Git, Terminal/Shell, etc. configuration files
 
 ## Favorite color schemes http://chriskempson.com/projects/base16/
 * base16-railscasts
@@ -8,6 +8,7 @@ A set of vim, terminal, git, etc. configuration files
 * base16-oceanicnext
 
 ## Favorite color schemes https://github.com/flazz/vim-colorschemes
+* xoria256
 * railscasts
 * codeschool
 * gruvbox `:set bg=dark`
@@ -17,7 +18,6 @@ A set of vim, terminal, git, etc. configuration files
 * corporation
 * [seoul256](https://github.com/junegunn/seoul256.vim) `let g:seoul256_background = 233`
 * jelleybeans
-* xoria256
 * oceanblack
 * transparent
 * rootwater
