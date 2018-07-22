@@ -11,6 +11,7 @@ set viminfo='5                  " browse oldfiles, display N-last opened
 "============================================================
 syntax on
 set nocompatible                " choose no compatibility with legacy vi
+set guicursor=
 set cursorline
 set showmatch                   " highlight matching [{()}]
 set noswapfile
@@ -47,6 +48,8 @@ set laststatus=0                " never show file name in status - save edit wor
 " type 'byebug' before current line:
 map <Leader>bb Obyebug<Esc>
 " Space == Enter key in NORMAL mode:
-map <Space> <Enter>
+map <Space> <CR>
 " Spell-check set to F6:
 map <F6> :setlocal spell!<CR>
+" :Explore
+nmap <F4> :Ex<CR>
