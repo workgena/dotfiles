@@ -16,6 +16,7 @@ xmap ga <Plug>(EasyAlign)
 " vim-workspace
 " run `ToggleWorkspace` command to enable workspace in current directory
 let g:workspace_autosave_always = 1
+let g:workspace_autosave_untrailspaces = 0 " https://github.com/thaerkh/vim-workspace/issues/9
 
 "============================================================
 " Color scheme
@@ -26,7 +27,7 @@ if has('termguicolors')
 endif
 
 set background=dark " dark or light
-colorscheme xoria256
+colorscheme rootwater
 let g:seoul256_background = 233
 
 source /home/virt/.vimrc
