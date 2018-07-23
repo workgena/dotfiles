@@ -53,3 +53,5 @@ map <Space> <CR>
 map <F6> :setlocal spell!<CR>
 " :Explore
 nmap <F4> :Ex<CR>
+" Quit with not closing tabs
+nmap <Leader>q :quitall<CR>
