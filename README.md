@@ -1,13 +1,16 @@
 # dotfiles
-A set of Vim, Git, Terminal/Shell, etc. configuration files
+
+A set of Vim, Git, Terminal/Shell, etc. configuration files.
 
 ## Favorite color schemes http://chriskempson.com/projects/base16/
+
 * base16-railscasts
 * base16-tomorrow-night
 * base16-ocean
 * base16-oceanicnext
 
 ## Favorite color schemes https://github.com/flazz/vim-colorschemes
+
 * xoria256
 * railscasts
 * codeschool
@@ -54,12 +57,14 @@ A set of Vim, Git, Terminal/Shell, etc. configuration files
 * [gotham](https://github.com/whatyouhide/vim-gotham)
 
 ## Other color schemes
+
 * [synthwave.vim](https://github.com/exitface/synthwave.vim)
 * [farout](https://github.com/fcpg/vim-farout)
 * [fahrenheit](https://github.com/fcpg/vim-fahrenheit)
 * [orbital](https://github.com/fcpg/vim-orbital)
 
 ## Terminal [base16](https://github.com/chriskempson/base16) favourites themes
+
 * `base16_3024`
 * `base16_apathy`
 * `base16_atelier-dune`
@@ -105,12 +110,14 @@ A set of Vim, Git, Terminal/Shell, etc. configuration files
 * [ProFfontIIx Nerd Mono](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/ProFont/profontiix) # очешь просторный, начертание необычное
 
 ## Vim articles, cheat sheets, tutorials
+
 * [Vim Cheat Sheet](https://vim.rtorr.com/) and [Vim Commands Cheat Sheet](http://www.fprintf.net/vimCheatSheet.html)
 * [Getting Started with Vim](https://www.sitepoint.com/getting-started-vim/)
 * [Effective Rails Development with Vim](https://www.sitepoint.com/effective-rails-development-vim/)
 * [VIM Adventures](https://vim-adventures.com/) - Learn VIM while playing a game
 
 ## Shell(Terminal emulator)
+
 - [fish](https://fishshell.com/) is a smart and user-friendly command line
 shell with Autosuggestions just like a web browser.
   * [Install fish shell in Debian 8](https://gist.github.com/mamiu/c3c0ee8f4cf05030a72e)
