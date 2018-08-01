@@ -2,17 +2,12 @@
 
 A set of Vim, Git, Terminal/Shell, etc. configuration files.
 
-## Favorite color schemes http://chriskempson.com/projects/base16/
-
-* base16-railscasts
-* base16-tomorrow-night
-* base16-ocean
-* base16-oceanicnext
-
 ## Favorite color schemes https://github.com/flazz/vim-colorschemes
 
+* [falcone](https://github.com/fenetikm/falcon)
 * xoria256
 * railscasts
+* rootwater
 * codeschool
 * gruvbox `:set bg=dark`
 * oxeded
@@ -23,7 +18,6 @@ A set of Vim, Git, Terminal/Shell, etc. configuration files.
 * jelleybeans
 * oceanblack
 * transparent
-* rootwater
 * molokai
 * moria
 * neon
@@ -55,6 +49,14 @@ A set of Vim, Git, Terminal/Shell, etc. configuration files.
 * iceberg
 * termschool
 * [gotham](https://github.com/whatyouhide/vim-gotham)
+
+## Favorite color schemes http://chriskempson.com/projects/base16/
+
+* base16-railscasts
+* base16-default-dark
+* base16-tomorrow-night
+* base16-ocean
+* base16-oceanicnext
 
 ## Other color schemes
 
