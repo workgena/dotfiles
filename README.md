@@ -125,3 +125,15 @@ shell with Autosuggestions just like a web browser.
   * [Install fish shell in Debian 8](https://gist.github.com/mamiu/c3c0ee8f4cf05030a72e)
   * [How to make fish my default shell?](https://github.com/fish-shell/fish-shell#switching-to-fish)
   * [Fish as a default Gnome-Terminal shell](https://askubuntu.com/a/663139)
+
+
+## NeoVim and JSHint
+
+* Install NodeJS and JSHint
+
+  ```
+  $ sudo apt install nodejs
+  $ npm install -g jshint
+  ```
+
+* Create global [configuration](http://jshint.com/docs/options/) `~/.jshintrc`.  Good example with all options explained is [here](https://github.com/jshint/jshint/blob/master/examples/.jshintrc)
