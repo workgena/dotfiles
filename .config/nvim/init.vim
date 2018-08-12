@@ -12,6 +12,7 @@ Plug 'luochen1990/rainbow'
 Plug 'thoughtbot/vim-rspec'
 Plug 'fenetikm/falcon'
 Plug 'terryma/vim-smooth-scroll'
+Plug 'w0rp/ale'                 " async linter
 
 call plug#end()
 

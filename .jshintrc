@@ -1,0 +1,12 @@
+{
+  "curly"   :  true,
+  "eqeqeq"  :  true,
+  "nocomma" :  true,
+  "undef"   :  true,  // true: Require all non-global variables to be declared (prevents global leaks)
+  "unused"  :  true,  // Unused variables:
+                      //   true     : all variables, last function parameter
+                      //   "vars"   : all variables only
+                      //   "strict" : all variables, all function parameters
+  "browser" :  true,
+  "jquery"  :  true
+}
