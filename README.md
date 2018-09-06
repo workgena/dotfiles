@@ -7,6 +7,7 @@ A set of Vim, Git, Terminal/Shell, etc. configuration files.
 * [falcone](https://github.com/fenetikm/falcon)
 * xoria256
 * railscasts
+* herokudoc
 * rootwater
 * codeschool
 * gruvbox `:set bg=dark`
@@ -133,7 +134,8 @@ shell with Autosuggestions just like a web browser.
 
   ```
   $ sudo apt install nodejs
-  $ npm install -g jshint
+  $ sudo apt-get install npm
+  $ sudo npm install -g jshint
   ```
 
 * Create global [configuration](http://jshint.com/docs/options/) `~/.jshintrc`.  Good example with all options explained is [here](https://github.com/jshint/jshint/blob/master/examples/.jshintrc)
