@@ -7,6 +7,7 @@ A set of Vim, Git, Terminal/Shell, etc. configuration files.
 * [falcone](https://github.com/fenetikm/falcon)
 * xoria256
 * railscasts
+* underwater-mod
 * herokudoc
 * rootwater
 * codeschool
