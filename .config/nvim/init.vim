@@ -1,3 +1,5 @@
+source ~/.vimrc
+
 call plug#begin('~/.local/share/nvim/plugged')
 
 Plug 'junegunn/vim-easy-align'
@@ -61,7 +63,4 @@ if has('termguicolors')
   set termguicolors " 24-bit terminal
 endif
 
-set background=dark " dark or light
-colorscheme falcon
-
-source ~/.vimrc
+colorscheme underwater-mod
