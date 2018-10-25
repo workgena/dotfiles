@@ -28,8 +28,6 @@ set expandtab                   " use spaces, not tabs (optional)
 set list
 set listchars=tab:>-
 
-" Trim trailing spaces on Save
-autocmd BufWritePre * :%s/\s\+$//e
 autocmd FileType markdown set wrap linebreak
 autocmd FileType gitcommit set spell
 
@@ -44,6 +42,8 @@ set laststatus=0                " never show file name in status(save edit works
 
 " autofixes
 iab bb byebug
+iab cl console.log();
+ia edn end
 
 "============================================================
 " Mappings
@@ -58,13 +58,10 @@ map <Space> <CR>
 nmap <F4> :Ex<CR>
 " Spell-check set to F6:
 map <F6> :setlocal spell!<CR>
-" <Del> removes text wihtout putting it to register
+" <Del> key work like 'x' without putting removed text into register
 map <Del> "_x
-" Jump to tab 1/2/3
-nmap <Leader>1 1gt
-nmap <Leader>2 2gt
-nmap <Leader>3 3gt
-nmap <C-Left> gT
-nmap <C-Right> gt
+" Jump to next/prev tab's
+nmap <C-Down> gT
+nmap <C-Up> gt
 " Command :noh
 nmap <Leader><Leader> :noh<CR>

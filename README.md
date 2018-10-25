@@ -8,6 +8,7 @@ A set of Vim, Git, Terminal/Shell, etc. configuration files.
 * xoria256
 * railscasts
 * underwater-mod
+* [ayu](https://github.com/ayu-theme/ayu-vim)
 * herokudoc
 * rootwater
 * codeschool
@@ -22,6 +23,9 @@ A set of Vim, Git, Terminal/Shell, etc. configuration files.
 * transparent
 * molokai
 * moria
+* flattened_light
+* Slate
+* Tomorrow-Night-Blue
 * neon
 * no_quarter
 * matrix
@@ -52,6 +56,7 @@ A set of Vim, Git, Terminal/Shell, etc. configuration files.
 * termschool
 * [gotham](https://github.com/whatyouhide/vim-gotham)
 
+
 ## Favorite color schemes http://chriskempson.com/projects/base16/
 
 * base16-railscasts
@@ -60,12 +65,20 @@ A set of Vim, Git, Terminal/Shell, etc. configuration files.
 * base16-ocean
 * base16-oceanicnext
 
+
 ## Other color schemes
 
 * [synthwave.vim](https://github.com/exitface/synthwave.vim)
 * [farout](https://github.com/fcpg/vim-farout)
 * [fahrenheit](https://github.com/fcpg/vim-fahrenheit)
 * [orbital](https://github.com/fcpg/vim-orbital)
+
+
+## List of interesting VIM plugins
+
+* Plug 'zhou13/vim-easyescape' --> provides `inoremap jk <Esc>`
+* Plug 'Raimondi/delimitMate'  --> provides insert mode auto-completion for quotes, parens, brackets, etc.
+
 
 ## Terminal [base16](https://github.com/chriskempson/base16) favourites themes
 
@@ -89,11 +102,11 @@ A set of Vim, Git, Terminal/Shell, etc. configuration files.
 
 [Improve Font Rendering on Debian 8 By Installing Infinality and Ubuntu Fonts](https://www.linuxbabe.com/desktop-linux/improve-font-rendering-on-debian-8-by-install-infinality-and-google-fonts) // Use **OSX** style
 
-* `Source Code Pro Regular` | [homepage](https://adobe-fonts.github.io/source-code-pro/)
 * [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) | [homepage](https://www.ibm.com/plex/) | [Get Plex](https://github.com/IBM/plex/releases/tag/v1.0.2)
+* `Hack`
+* `Source Code Pro Regular` | [homepage](https://adobe-fonts.github.io/source-code-pro/)
 * [Monaco](https://github.com/todylu/monaco.ttf)
 * `Droid Sans Mono`
-* `Hack`
 * `Edlo`
 * `Consolas`
 * `Inconsolata`

@@ -2,23 +2,22 @@ source ~/.vimrc
 
 call plug#begin('~/.local/share/nvim/plugged')
 
-Plug 'junegunn/vim-easy-align'
 Plug 'flazz/vim-colorschemes'
-Plug 'ervandew/supertab'        " <Tab> behaves like <CTRL+n>
-Plug 'thaerkh/vim-workspace'    " Vim session; auto-save(better then `vim-scripts/vim-auto-save`)
-Plug 'tpope/vim-endwise'
-Plug 'Raimondi/delimitMate'
-Plug 'zhou13/vim-easyescape'
-Plug '907th/vim-auto-save'
-Plug 'thoughtbot/vim-rspec'
-Plug 'janko-m/vim-test'
+Plug 'ayu-theme/ayu-vim'        " https://github.com/ayu-theme/ayu-vim
 Plug 'fenetikm/falcon'
+
+Plug 'junegunn/vim-easy-align'
+Plug 'ervandew/supertab'        " <Tab> behaves like <CTRL+n>
+Plug 'tpope/vim-endwise'
+Plug 'thaerkh/vim-workspace'    " Vim session; auto-save(better then `vim-scripts/vim-auto-save`)
+Plug '907th/vim-auto-save'
 Plug 'terryma/vim-smooth-scroll'
 Plug 'w0rp/ale'                 " async linter
 Plug 'majutsushi/tagbar'
+
 Plug 'vim-ruby/vim-ruby'
-" Plug 'xolox/vim-misc'
-" Plug 'xolox/vim-easytags' " Automated tag file generation and syntax highlighting of tags in Vim
+Plug 'thoughtbot/vim-rspec'
+Plug 'janko-m/vim-test'
 
 call plug#end()
 
@@ -31,8 +30,6 @@ xmap ga <Plug>(EasyAlign)
 " Plugin vim-workspace
 " run `ToggleWorkspace` command to enable workspace in current directory
 let g:workspace_autosave = 0
-" let g:workspace_autosave_always = 1
-" let g:workspace_autosave_untrailspaces = 0 " https://github.com/thaerkh/vim-workspace/issues/9
 
 " Plugin vim-auto-save
 let g:auto_save = 1             " enable AutoSave on Vim startup
@@ -58,9 +55,9 @@ nmap <F8> :TagbarToggle<CR>
 "============================================================
 " Color scheme
 "============================================================
-" colors fix for custom colors
 if has('termguicolors')
   set termguicolors " 24-bit terminal
 endif
 
-colorscheme underwater-mod
+let ayucolor="mirage"
+color ayu
