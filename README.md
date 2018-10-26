@@ -77,7 +77,10 @@ A set of Vim, Git, Terminal/Shell, etc. configuration files.
 ## List of interesting VIM plugins
 
 * Plug 'zhou13/vim-easyescape' --> provides `inoremap jk <Esc>`
-* Plug 'Raimondi/delimitMate'  --> provides insert mode auto-completion for quotes, parens, brackets, etc.
+* Plug 'Raimondi/delimitMate'  --> provides insert mode auto-completion for quotes, brackets, etc.
+* Plug 'junegunn/goyo.vim'     --> Distraction-free writing in Vim (paddings all sides)
+* Plug 'bilalq/lite-dfm'       --> Distraction-free writing in Vim (paddings left+right)
+
 
 
 ## Terminal [base16](https://github.com/chriskempson/base16) favourites themes
