@@ -1,3 +1,6 @@
-# vim-workspace plugin
+.versions.conf
+.ruby-version
+
+# Vim plugins
 Session.vim
 .undodir
