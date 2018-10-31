@@ -2,7 +2,7 @@
 
 A set of Vim, Git, Terminal/Shell, etc. configuration files.
 
-## Favorite color schemes https://github.com/flazz/vim-colorschemes
+## Favorite color schemes [vim-colorschemes](https://github.com/flazz/vim-colorschemes)
 
 * [falcone](https://github.com/fenetikm/falcon)
 * xoria256
@@ -56,22 +56,23 @@ A set of Vim, Git, Terminal/Shell, etc. configuration files.
 * termschool
 * [gotham](https://github.com/whatyouhide/vim-gotham)
 
+### Other color schemes
 
-## Favorite color schemes http://chriskempson.com/projects/base16/
-
-* base16-railscasts
-* base16-default-dark
-* base16-tomorrow-night
-* base16-ocean
-* base16-oceanicnext
-
-
-## Other color schemes
-
+* blue (Out of the box)
+* [base16](http://chriskempson.com/projects/base16/)
+  - base16-railscasts
+  - base16-default-dark
+  - base16-tomorrow-night
+  - base16-ocean
+  - base16-oceanicnext
+* [onedark.vim](https://github.com/joshdick/onedark.vim)
 * [synthwave.vim](https://github.com/exitface/synthwave.vim)
 * [farout](https://github.com/fcpg/vim-farout)
 * [fahrenheit](https://github.com/fcpg/vim-fahrenheit)
-* [orbital](https://github.com/fcpg/vim-orbital)
+* Collections:
+  - [Awesome Vim Color Schemes](https://github.com/rafi/awesome-vim-colorschemes)
+  - [Solarized 8: True Colors](https://github.com/lifepillar/vim-solarized8)
+  - [Rainglow for VIM](https://github.com/rainglow/vim) 320+ color themes for VIM, [preview](https://rainglow.io/preview/)
 
 
 ## List of interesting VIM plugins
