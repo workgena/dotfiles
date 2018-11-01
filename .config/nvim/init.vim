@@ -2,10 +2,6 @@ source ~/.vimrc
 
 call plug#begin('~/.local/share/nvim/plugged')
 
-Plug 'flazz/vim-colorschemes'
-Plug 'ayu-theme/ayu-vim'        " https://github.com/ayu-theme/ayu-vim
-Plug 'fenetikm/falcon'
-
 Plug 'junegunn/vim-easy-align'
 Plug 'ervandew/supertab'        " <Tab> behaves like <CTRL+n>
 Plug 'tpope/vim-endwise'
@@ -14,10 +10,13 @@ Plug '907th/vim-auto-save'
 Plug 'terryma/vim-smooth-scroll'
 Plug 'w0rp/ale'                 " async linter
 Plug 'majutsushi/tagbar'
+Plug 'bilalq/lite-dfm'          " :LiteDFMToggle / let g:lite_dfm_keep_ruler=1
 
 Plug 'vim-ruby/vim-ruby'
+Plug 'tpope/vim-rails'
 Plug 'thoughtbot/vim-rspec'
 Plug 'janko-m/vim-test'
+Plug 'pangloss/vim-javascript'
 
 call plug#end()
 
@@ -55,9 +54,9 @@ nmap <F8> :TagbarToggle<CR>
 "============================================================
 " Color scheme
 "============================================================
+syntax on
 if has('termguicolors')
   set termguicolors " 24-bit terminal
 endif
 
-let ayucolor="mirage"
-color ayu
+color blue

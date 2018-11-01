@@ -4,7 +4,7 @@ A set of Vim, Git, Terminal/Shell, etc. configuration files.
 
 ## Favorite color schemes [vim-colorschemes](https://github.com/flazz/vim-colorschemes)
 
-* [falcone](https://github.com/fenetikm/falcon)
+* [falcon](https://github.com/fenetikm/falcon)
 * xoria256
 * railscasts
 * underwater-mod
