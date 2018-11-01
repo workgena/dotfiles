@@ -104,32 +104,31 @@ A set of Vim, Git, Terminal/Shell, etc. configuration files.
 
 ## Fonts, [Oldschool PC Fonts](https://int10h.org/oldschool-pc-fonts/fontlist/)
 
-[Improve Font Rendering on Debian 8 By Installing Infinality and Ubuntu Fonts](https://www.linuxbabe.com/desktop-linux/improve-font-rendering-on-debian-8-by-install-infinality-and-google-fonts) // Use **OSX** style
-
 * [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) | [homepage](https://www.ibm.com/plex/) | [Get Plex](https://github.com/IBM/plex/releases/tag/v1.0.2)
-* `Hack`
 * `Source Code Pro Regular` | [homepage](https://adobe-fonts.github.io/source-code-pro/)
-* [Monaco](https://github.com/todylu/monaco.ttf)
+* `Hack`
 * `SFMono-Regular`
+* [Monaco](https://github.com/todylu/monaco.ttf)
 * `Droid Sans Mono`
 * `Edlo`
 * `Consolas`
 * `Inconsolata`
 * [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono)
+* `Ubuntu Mono`
 * `Menlo`
-* `Terminus`
+* [Nitti PX](https://nomail.com.ua/font-page/31424?name=NittiPX-Normal)
+* [Hermit](https://pcaro.es/p/hermit/) # необычный, уникальный
+* [Space Mono](https://fonts.google.com/specimen/Space+Mono)
+* [Fira Mono](https://fonts.google.com/specimen/Fira+Mono)
+* [ProFfontIIx Nerd Mono](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/ProFont/profontiix) # очешь просторный, начертание необычное
 * `PxPlus_IBM_VGA9` # более разряженный по высоте нежели EGA9
 * `PxPlus_IBM_EGA9`
 * `PxPlus_IBM_EGA8` # EGA9 более разряженный по ширине нежели EGA8
 * `PxPlus_IBM_VGA8`
 * `PxPlus VGA SquaarePx  `
-* `Ubuntu Mono`
-* [Nitti PX](https://nomail.com.ua/font-page/31424?name=NittiPX-Normal)
-* [Space Mono](https://fonts.google.com/specimen/Space+Mono)
-* [Fira Mono](https://fonts.google.com/specimen/Fira+Mono)
-* `Monofur` # очень необычен, хорошо отображается, смешной )
-* [Hermit](https://pcaro.es/p/hermit/) # необычный, уникальный
-* [ProFfontIIx Nerd Mono](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/ProFont/profontiix) # очешь просторный, начертание необычное
+* `Terminus`
+* ~~Monofur~~
+* [Improve Font Rendering on Debian 8 By Installing Infinality and Ubuntu Fonts](https://www.linuxbabe.com/desktop-linux/improve-font-rendering-on-debian-8-by-install-infinality-and-google-fonts) // Use **OSX** style
 
 ## Vim articles, cheat sheets, tutorials
 
