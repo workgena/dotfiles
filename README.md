@@ -110,6 +110,7 @@ A set of Vim, Git, Terminal/Shell, etc. configuration files.
 * `Hack`
 * `Source Code Pro Regular` | [homepage](https://adobe-fonts.github.io/source-code-pro/)
 * [Monaco](https://github.com/todylu/monaco.ttf)
+* `SFMono-Regular`
 * `Droid Sans Mono`
 * `Edlo`
 * `Consolas`
