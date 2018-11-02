@@ -69,6 +69,10 @@ A set of Vim, Git, Terminal/Shell, etc. configuration files.
 * [synthwave.vim](https://github.com/exitface/synthwave.vim)
 * [farout](https://github.com/fcpg/vim-farout)
 * [fahrenheit](https://github.com/fcpg/vim-fahrenheit)
+* [Spacegray](https://github.com/ajh17/Spacegray.vim)
+* [vim-material](https://github.com/hzchirs/vim-material)
+* [yowish](https://github.com/KabbAmine/yowish.vim)
+* [materialtheme](https://github.com/gwutz/vim-materialtheme)
 * Collections:
   - [Awesome Vim Color Schemes](https://github.com/rafi/awesome-vim-colorschemes)
   - [Solarized 8: True Colors](https://github.com/lifepillar/vim-solarized8)
@@ -77,10 +81,11 @@ A set of Vim, Git, Terminal/Shell, etc. configuration files.
 
 ## List of interesting VIM plugins
 
-* Plug 'zhou13/vim-easyescape' --> provides `inoremap jk <Esc>`
-* Plug 'Raimondi/delimitMate'  --> provides insert mode auto-completion for quotes, brackets, etc.
-* Plug 'junegunn/goyo.vim'     --> Distraction-free writing in Vim (paddings all sides)
-* Plug 'bilalq/lite-dfm'       --> Distraction-free writing in Vim (paddings left+right)
+* Plug 'zhou13/vim-easyescape'  --> provides `inoremap jk <Esc>`
+* Plug 'Raimondi/delimitMate'   --> provides insert mode auto-completion for quotes, brackets, etc.
+* Plug 'junegunn/goyo.vim'      --> Distraction-free writing in Vim (paddings all sides)
+* Plug 'bilalq/lite-dfm'        --> Distraction-free writing in Vim (paddings left+right)
+* Plug 'junegunn/limelight.vim' --> Hyperfocus-writing in Vim.
 
 
 
