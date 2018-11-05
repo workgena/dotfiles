@@ -28,6 +28,9 @@ set expandtab                   " use spaces, not tabs (optional)
 set list
 set listchars=tab:>-
 
+" Trim trailing spaces on Save
+" autocmd BufLeave * :%s/\s\+$//e
+
 autocmd FileType markdown set wrap linebreak
 autocmd FileType gitcommit set spell
 
@@ -55,12 +58,12 @@ nmap <Leader>q :quitall<CR>
 " Space == Enter key in NORMAL mode:
 map <Space> <CR>
 " :Explore
-nmap <F4> :Ex<CR>
+nmap <F4> :Explore<CR>
 " Spell-check set to F6:
 map <F6> :setlocal spell!<CR>
-" <Del> key work like 'x' without putting removed text into register
+" <Del> removes text wihtout putting it to register
 map <Del> "_x
-" Jump to next/prev tab's
+" Jump to tab 1/2/3
 nmap <C-Down> gT
 nmap <C-Up> gt
 " Command :noh
