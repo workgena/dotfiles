@@ -65,6 +65,7 @@ A set of Vim, Git, Terminal/Shell, etc. configuration files.
   - base16-tomorrow-night
   - base16-ocean
   - base16-oceanicnext
+* [one](https://github.com/rakr/vim-one) `set background=dark`
 * [onedark.vim](https://github.com/joshdick/onedark.vim)
 * [synthwave.vim](https://github.com/exitface/synthwave.vim)
 * [farout](https://github.com/fcpg/vim-farout)
