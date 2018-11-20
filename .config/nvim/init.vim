@@ -2,6 +2,11 @@ source ~/.vimrc
 
 call plug#begin('~/.local/share/nvim/plugged')
 
+" Appearance
+Plug 'ayu-theme/ayu-vim'        " https://github.com/ayu-theme/ayu-vim
+Plug 'Wutzara/vim-materialtheme'
+
+" Tools
 Plug 'junegunn/vim-easy-align'
 Plug 'ervandew/supertab'        " <Tab> behaves like <CTRL+n>
 Plug 'tpope/vim-endwise'
@@ -12,6 +17,7 @@ Plug 'w0rp/ale'                 " async linter
 Plug 'majutsushi/tagbar'
 Plug 'bilalq/lite-dfm'          " :LiteDFMToggle / let g:lite_dfm_keep_ruler=1
 
+" Languages support
 Plug 'vim-ruby/vim-ruby'
 Plug 'tpope/vim-rails'
 Plug 'thoughtbot/vim-rspec'
@@ -19,6 +25,10 @@ Plug 'janko-m/vim-test'
 Plug 'pangloss/vim-javascript'
 
 call plug#end()
+
+" Plugin LiteDFM
+let g:lite_dfm_keep_ruler = 1
+autocmd VimEnter * LiteDFM
 
 " Plugin ale
 let g:ale_set_highlights = 0    " disabling highlighting
@@ -54,9 +64,11 @@ nmap <F8> :TagbarToggle<CR>
 "============================================================
 " Color scheme
 "============================================================
-syntax on
 if has('termguicolors')
   set termguicolors " 24-bit terminal
 endif
 
-color blue
+" let ayucolor="mirage"
+" color ayu
+
+color materialtheme
