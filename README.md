@@ -4,7 +4,7 @@ A set of Vim, Git, Terminal/Shell, etc. configuration files.
 
 ## Favorite color schemes [vim-colorschemes](https://github.com/flazz/vim-colorschemes)
 
-* [gruvbox](https://github.com/morhetz/gruvbox)
+* [gruvbox](https://github.com/morhetz/gruvbox) `let g:gruvbox_guisp_fallback = 'bg'` `let g:gruvbox_italic=1` `set background=dark`
 * [falcon](https://github.com/fenetikm/falcon)
 * xoria256
 * railscasts
