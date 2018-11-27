@@ -114,6 +114,7 @@ A set of Vim, Git, Terminal/Shell, etc. configuration files.
 * `Source Code Pro Regular` | [homepage](https://adobe-fonts.github.io/source-code-pro/)
 * `Hack`
 * `SFMono-Regular`
+* `Fira Mono` \[[1](https://github.com/bBoxType/FiraSans/tree/master/Fira_Mono_3_2/Fonts/FiraMono_WEB_32)\] \[[2](https://fonts.google.com/specimen/Fira+Mono)\]
 * [Monaco](https://github.com/todylu/monaco.ttf)
 * `Droid Sans Mono`
 * `Edlo`
@@ -125,7 +126,6 @@ A set of Vim, Git, Terminal/Shell, etc. configuration files.
 * [Nitti PX](https://nomail.com.ua/font-page/31424?name=NittiPX-Normal)
 * [Hermit](https://pcaro.es/p/hermit/) # необычный, уникальный
 * [Space Mono](https://fonts.google.com/specimen/Space+Mono)
-* [Fira Mono](https://github.com/bBoxType/FiraSans/tree/master/Fira_Mono_3_2/Fonts/FiraMono_WEB_32), [g](https://fonts.google.com/specimen/Fira+Mono)
 * [ProFfontIIx Nerd Mono](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/ProFont/profontiix) # очешь просторный, начертание необычное
 * `PxPlus_IBM_VGA9` # более разряженный по высоте нежели EGA9
 * `PxPlus_IBM_EGA9`
