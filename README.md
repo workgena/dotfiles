@@ -114,7 +114,7 @@ A set of Vim, Git, Terminal/Shell, etc. configuration files.
 * `Source Code Pro Regular` | [homepage](https://adobe-fonts.github.io/source-code-pro/)
 * `Hack`
 * `SFMono-Regular`
-* `Fira Mono` \[[1](https://github.com/bBoxType/FiraSans/tree/master/Fira_Mono_3_2/Fonts/FiraMono_WEB_32)\] \[[2](https://fonts.google.com/specimen/Fira+Mono)\]
+* `Fira Mono` [\[1\]](https://github.com/bBoxType/FiraSans/tree/master/Fira_Mono_3_2/Fonts/FiraMono_WEB_32) | [\[2\]](https://fonts.google.com/specimen/Fira+Mono)
 * [Monaco](https://github.com/todylu/monaco.ttf)
 * `Droid Sans Mono`
 * `Edlo`
