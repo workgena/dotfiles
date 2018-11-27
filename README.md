@@ -12,7 +12,14 @@ A set of Vim, Git, Terminal/Shell, etc. configuration files.
 * herokudoc
 * rootwater
 * codeschool
-* gruvbox `:set bg=dark`
+* [gruvbox](https://github.com/morhetz/gruvbox)
+
+  ```
+  set bg=dark
+  let g:gruvbox_italic=1
+  color gruvbox
+  ```
+
 * oxeded
 * base16-railscasts
 * lucius
@@ -125,7 +132,7 @@ A set of Vim, Git, Terminal/Shell, etc. configuration files.
 * [Nitti PX](https://nomail.com.ua/font-page/31424?name=NittiPX-Normal)
 * [Hermit](https://pcaro.es/p/hermit/) # необычный, уникальный
 * [Space Mono](https://fonts.google.com/specimen/Space+Mono)
-* [Fira Mono](https://fonts.google.com/specimen/Fira+Mono)
+* [Fira Mono](https://github.com/bBoxType/FiraSans/tree/master/Fira_Mono_3_2/Fonts/FiraMono_WEB_32), [g](https://fonts.google.com/specimen/Fira+Mono)
 * [ProFfontIIx Nerd Mono](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/ProFont/profontiix) # очешь просторный, начертание необычное
 * `PxPlus_IBM_VGA9` # более разряженный по высоте нежели EGA9
 * `PxPlus_IBM_EGA9`
