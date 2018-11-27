@@ -4,6 +4,7 @@ A set of Vim, Git, Terminal/Shell, etc. configuration files.
 
 ## Favorite color schemes [vim-colorschemes](https://github.com/flazz/vim-colorschemes)
 
+* [gruvbox](https://github.com/morhetz/gruvbox)
 * [falcon](https://github.com/fenetikm/falcon)
 * xoria256
 * railscasts
@@ -12,14 +13,6 @@ A set of Vim, Git, Terminal/Shell, etc. configuration files.
 * herokudoc
 * rootwater
 * codeschool
-* [gruvbox](https://github.com/morhetz/gruvbox)
-
-  ```
-  set bg=dark
-  let g:gruvbox_italic=1
-  color gruvbox
-  ```
-
 * oxeded
 * base16-railscasts
 * lucius
