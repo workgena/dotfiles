@@ -27,6 +27,7 @@ A set of Vim, Git, Terminal/Shell, etc. configuration files.
 * oceanblack
 * transparent
 * molokai
+* [vim-monokai-tasty](https://github.com/patstockwell/vim-monokai-tasty)
 * moria
 * flattened_light
 * Slate
