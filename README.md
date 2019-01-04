@@ -7,6 +7,7 @@ A set of Vim, Git, Terminal/Shell, etc. configuration files.
 * [gruvbox](https://github.com/morhetz/gruvbox) `let g:gruvbox_guisp_fallback = 'bg'` `let g:gruvbox_italic=1` `set background=dark`
 * [deus](https://github.com/ajmwagar/vim-deus)
 * [ayu](https://github.com/ayu-theme/ayu-vim)
+* [blue-mood](https://github.com/lmintmate/blue-mood-vim)
 * railscasts
 * jelleybeans
 * [falcon](https://github.com/fenetikm/falcon)
@@ -89,6 +90,7 @@ Collections:
 * Plug 'junegunn/goyo.vim'      --> Distraction-free writing in Vim (paddings all sides)
 * Plug 'bilalq/lite-dfm'        --> Distraction-free writing in Vim (paddings left+right)
 * Plug 'junegunn/limelight.vim' --> Hyperfocus-writing in Vim.
+* Plug 'kshenoy/vim-signature'  --> displays the marks created by the user on the signs column, which is good for remembering which marks were created.
 
 
 
