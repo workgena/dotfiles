@@ -85,6 +85,7 @@ Collections:
 
 ## List of interesting VIM plugins
 
+* Plug 'mhinz/vim-grepper'      --> grep results appear in a quickfix
 * Plug 'zhou13/vim-easyescape'  --> provides `inoremap jk <Esc>`
 * Plug 'Raimondi/delimitMate'   --> provides insert mode auto-completion for quotes, brackets, etc.
 * Plug 'junegunn/goyo.vim'      --> Distraction-free writing in Vim (paddings all sides)
