@@ -4,12 +4,22 @@ A set of Vim, Git, Terminal/Shell, etc. configuration files.
 
 ## Favorite color schemes
 
-* [gruvbox](https://github.com/morhetz/gruvbox) `let g:gruvbox_guisp_fallback = 'bg'` `let g:gruvbox_italic=1` `set background=dark`
+* [gruvbox](https://github.com/morhetz/gruvbox)
+
+  ```
+  set background=light " dark
+  let g:gruvbox_contrast_light='soft'
+  let g:gruvbox_contrast_dark='soft'
+  let g:gruvbox_italic=1
+  let g:gruvbox_guisp_fallback='bg'
+  color gruvbox
+  ```
+
 * [deus](https://github.com/ajmwagar/vim-deus)
 * [ayu](https://github.com/ayu-theme/ayu-vim)
 * [blue-mood](https://github.com/lmintmate/blue-mood-vim)
 * railscasts
-* jelleybeans
+* [jelleybeans](https://github.com/nanotech/jellybeans.vim)
 * [falcon](https://github.com/fenetikm/falcon)
 * xoria256
 * [seoul256](https://github.com/junegunn/seoul256.vim) `let g:seoul256_background = 233`
@@ -70,10 +80,21 @@ A set of Vim, Git, Terminal/Shell, etc. configuration files.
 * [fahrenheit](https://github.com/fcpg/vim-fahrenheit)
 * [farout](https://github.com/fcpg/vim-farout)
 * [one](https://github.com/rakr/vim-one) `set background=dark`
-* [onedark.vim](https://github.com/joshdick/onedark.vim)
+
+  ```
+  set bg=dark " light
+  " set bg=light
+  let g:one_allow_italics = 1
+  color one
+  ```
+
+* [onedark.vim](https://github.com/joshdick/onedark.vim) `let g:onedark_terminal_italics=1`
 * [synthwave.vim](https://github.com/exitface/synthwave.vim)
 * [vim-material](https://github.com/hzchirs/vim-material)
 * [yowish](https://github.com/KabbAmine/yowish.vim)
+* [duoduo](https://github.com/Yggdroot/duoduo)
+* [escuro](https://github.com/fortes/vim-escuro)
+* [soft-era](https://github.com/soft-aesthetic/soft-era-vim)
 
 Collections:
 
@@ -92,6 +113,8 @@ Collections:
 * Plug 'bilalq/lite-dfm'        --> Distraction-free writing in Vim (paddings left+right)
 * Plug 'junegunn/limelight.vim' --> Hyperfocus-writing in Vim.
 * Plug 'kshenoy/vim-signature'  --> displays the marks created by the user on the signs column, which is good for remembering which marks were created.
+* Plug 'mkitt/tabline.vim'      --> Display Tab number, better rendering of tabs
+* Plug 'majutsushi/tagbar'       --> displays tags in a window, in other words "Outline"
 
 
 
