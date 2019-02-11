@@ -144,6 +144,7 @@ Collections:
 * `SF Mono Regular`
 * `Fira Mono` [\[1\]](https://github.com/bBoxType/FiraSans/tree/master/Fira_Mono_3_2/Fonts/FiraMono_WEB_32) | [\[2\]](https://fonts.google.com/specimen/Fira+Mono)
 * [Monaco](https://github.com/todylu/monaco.ttf)
+* [Monego](https://github.com/cseelus/monego) # nice curved font, similar to Monaco
 * `Hack`
 * `Droid Sans Mono`
 * `Menlo`
