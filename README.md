@@ -16,6 +16,7 @@ A set of Vim, Git, Terminal/Shell, etc. configuration files.
   ```
 
 * [deus](https://github.com/ajmwagar/vim-deus)
+* [nova](https://github.com/trevordmiller/nova-vim)
 * [ayu](https://github.com/ayu-theme/ayu-vim)
 * [blue-mood](https://github.com/lmintmate/blue-mood-vim)
 * railscasts
@@ -28,6 +29,7 @@ A set of Vim, Git, Terminal/Shell, etc. configuration files.
 * underwater-mod
 * badwolf
 * blue (Out of the box)
+* [nachtleben](https://github.com/schickele/vim-nachtleben)
 * herokudoc
 * rootwater
 * dracula
@@ -94,7 +96,6 @@ A set of Vim, Git, Terminal/Shell, etc. configuration files.
 * [yowish](https://github.com/KabbAmine/yowish.vim)
 * [duoduo](https://github.com/Yggdroot/duoduo)
 * [escuro](https://github.com/fortes/vim-escuro)
-* [soft-era](https://github.com/soft-aesthetic/soft-era-vim)
 
 Collections:
 
