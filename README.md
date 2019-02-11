@@ -67,7 +67,7 @@ A set of Vim, Git, Terminal/Shell, etc. configuration files.
 * bensday
 * PaperColor
 * seti
-* tender
+* [tender](https://github.com/jacoborus/tender.vim)
 * spring-night
 * iceberg
 * slate
