@@ -116,6 +116,17 @@ Collections:
 * Plug 'kshenoy/vim-signature'  --> displays the marks created by the user on the signs column, which is good for remembering which marks were created.
 * Plug 'mkitt/tabline.vim'      --> Display Tab number, better rendering of tabs
 * Plug 'majutsushi/tagbar'       --> displays tags in a window, in other words "Outline"
+* Plug 'https://github.com/neoclide/coc.nvim' --> Intellisense engine for vim8 & neovim, full language server protocol support as VSCode
+
+    ```
+    Plug 'neoclide/coc.nvim', {'tag': '*', 'do': { -> coc#util#install()}}
+    :so %
+    :PlugInstall
+    :CocInstall coc-json coc-html coc-css
+    $ gem install solargraph
+    :CocInstall coc-solargraph
+    ```
+
 
 
 
