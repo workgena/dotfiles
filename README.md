@@ -18,6 +18,7 @@ A set of Vim, Git, Terminal/Shell, etc. configuration files.
 * [deus](https://github.com/ajmwagar/vim-deus)
 * [nova](https://github.com/trevordmiller/nova-vim)
 * [ayu](https://github.com/ayu-theme/ayu-vim)
+* [srcery](https://github.com/srcery-colors/srcery-vim)
 * [blue-mood](https://github.com/lmintmate/blue-mood-vim)
 * railscasts
 * [jelleybeans](https://github.com/nanotech/jellybeans.vim)
