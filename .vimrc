@@ -1,9 +1,34 @@
 call plug#begin('~/.vim/plugged')
 
 " Appearance
+
+Plug 'KabbAmine/yowish.vim'
+Plug 'NLKNguyen/papercolor-theme'
+Plug 'Yggdroot/duoduo'
+Plug 'ajh17/Spacegray.vim'
+Plug 'andbar-ru/vim-unicon'
+Plug 'arcticicestudio/nord-vim'
+Plug 'ayu-theme/ayu-vim'
+Plug 'chriskempson/base16-vim'
+Plug 'exitface/synthwave.vim'
+Plug 'fortes/vim-escuro'
+Plug 'jacoborus/tender.vim'
+Plug 'joshdick/onedark.vim'
+Plug 'lmintmate/blue-mood-vim'
+Plug 'mhartington/oceanic-next'
+Plug 'morhetz/gruvbox'
+Plug 'nanotech/jellybeans.vim'
+Plug 'patstockwell/vim-monokai-tasty' " particularly good for Javascript
 Plug 'rakr/vim-one'
+Plug 'rakr/vim-two-firewatch'
+Plug 'romainl/Apprentice'
+Plug 'schickele/vim-nachtleben'
+Plug 'srcery-colors/srcery-vim'
+Plug 'trevordmiller/nova-vim'
+Plug 'trusktr/seti.vim'
 
 " Tools
+
 Plug '907th/vim-auto-save'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'ervandew/supertab'        " <Tab> behaves like <CTRL+n>
@@ -15,23 +40,41 @@ Plug 'w0rp/ale'                 " async linter
 Plug 'yuttie/comfortable-motion.vim'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'andymass/vim-matchup'     " Fixes JSX <tag> matching
+Plug 'Yggdroot/indentLine'
+Plug 'junegunn/goyo.vim'
 
 " Languages support
-Plug 'elixir-editors/vim-elixir'
-Plug 'gabrielelana/vim-markdown'
+
 Plug 'janko-m/vim-test'
-Plug 'sheerun/vim-polyglot'
-Plug 'thoughtbot/vim-rspec'
-Plug 'tpope/vim-rails'
+" Plug 'elixir-editors/vim-elixir'
+" Plug 'gabrielelana/vim-markdown'
+
+" Ruby language support
+
 Plug 'vim-ruby/vim-ruby'
-Plug 'othree/html5.vim'
+Plug 'tpope/vim-rails'
+" Plug 'thoughtbot/vim-rspec'
 
 " JavaScript
+
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
 Plug 'elzr/vim-json'
 
+" HTML5 CSS3
+
+Plug 'othree/html5.vim'
+Plug 'mattn/emmet-vim'
+
+" Autocompletion, Intellisense
+
+Plug 'neoclide/coc.nvim', {'tag': '*', 'do': { -> coc#util#install()}}
+Plug 'xolox/vim-misc'
+Plug 'xolox/vim-easytags'
+Plug 'ipod825/vim-tagjump'     " open a new tab when you jump with tags
+
 call plug#end()
+
 
 " nnoremap <Space> :CtrlPBuffer<CR>
 
@@ -60,10 +103,6 @@ let g:auto_save = 1             " enable AutoSave on Vim startup
 let g:auto_save_silent = 1      " do not display the auto-save notification
 let g:auto_save_events = ["InsertLeave", "TextChanged"]
 
-" Plugin vim-rspec
-"map <Leader>s :call RunNearestSpec()<CR>
-"map <Leader>l :call RunLastSpec()<CR>
-
 " Plugin vim-test
 nmap <Leader>s :TestNearest<CR>
 nmap <Leader>l :TestLast<CR>
@@ -72,8 +111,9 @@ nmap <Leader>f :TestFile<CR>
 " Plugin Tagbar
 nmap <F8> :TagbarToggle<CR>
 
-
-
+" Plugin emmet
+let g:user_emmet_install_global = 1
+" autocmd FileType erb.html,html,css EmmetInstall
 
 "============================================================
 " File navigation
@@ -87,9 +127,8 @@ let g:netrw_list_hide= '^\.\w'  " hide '.*' entytly in file-navigator
 "============================================================
 " Misc
 "============================================================
-syntax on
+syntax enable
 set nocompatible                " choose no compatibility with legacy vi
-set guicursor=
 set cursorline
 set showmatch                   " highlight matching [{()}]
 set noswapfile
@@ -99,14 +138,15 @@ set hlsearch
 set incsearch
 set iskeyword+=-                " treat dash separated words as a word text-object
 
-set guicursor=
-set cursorline
 set showmatch                   " highlight matching [{()}]
 set noswapfile
 set encoding=utf-8
 
 "" Whitespace & Indentation
 set nowrap                      " don't wrap lines
+set autoindent
+set smartindent
+set shiftround
 set shiftwidth=2                " number of spaces when shift indenting
 set tabstop=2                   " number of visual spaces per tab
 set softtabstop=2               " number of spaces in tab when editing
@@ -114,10 +154,7 @@ set expandtab                   " use spaces, not tabs (optional)
 set list
 set listchars=tab:>-
 
-" Trim trailing spaces on Save
-" autocmd BufLeave * :%s/\s\+$//e
-
-autocmd FileType markdown set linebreak
+" autocmd FileType markdown set linebreak
 autocmd FileType gitcommit set spell
 
 " Spell check highlight
@@ -144,16 +181,16 @@ nmap <Leader>q :quitall<CR>
 " :set nowrap/wrap
 nmap <F2> :set wrap!<CR>
 " :Explore
-nmap <F4> :Explore<CR>
+nmap <F4> :Texplore<CR>
 " Spell-check set to F6:
 map <F6> :setlocal spell!<CR>
 " <Del> removes text wihtout putting it to register
 map <Del> "_x
-" Jump to tab 1/2/3
+" Jump to between tabs
 nmap <C-Down> gT
 nmap <C-Up> gt
 " Command :noh
-nmap <Leader><Leader> :noh<CR>
+nmap <Leader><Leader> :nohlsearch<CR>
 
 " open TODO-file in current project
 nmap <Space> :tabe TODO.md<CR>
@@ -165,6 +202,58 @@ if has('termguicolors')
   set termguicolors " 24-bit terminal
 endif
 
+" let g:vim_monokai_tasty_italic = 1
+" colo vim-monokai-tasty
+
+" let g:onedark_terminal_italics=1
+" color onedark
+
+" let g:spacegray_underline_search = 0
+" let g:spacegray_use_italics = 1
+" colo spacegray
+
+" let ayucolor="light"
+" color ayu
+
+" set background=light
+" let g:gruvbox_contrast_light='soft'
+" let g:gruvbox_contrast_dark='soft'
+" let g:gruvbox_italic=1
+" let g:gruvbox_guisp_fallback='bg'
+" color gruvbox
+
+" colo synthwave
+" colo blue-mood
+" colo duoduo
+" colo escuro
+" colo jellybeans
+" colo nachtleben
+" colo nova
+" colo tender
+
+" set bg=light
+" let g:one_allow_italics = 1
+" colo one
+
+" let g:srcery_italic = 1
+" colo srcery
+
+" colo apprentice
+" colo yowish
+" colo nord
+
+" set background=light
+" let g:two_firewatch_italics=1
+" colo two-firewatch
+
+" colo base16-eighties
+
+" let g:oceanic_next_terminal_bold = 1
+" let g:oceanic_next_terminal_italic = 1
+" colo OceanicNext
+
+" set bg=light
+" colo PaperColor
+
 set bg=light
-let g:one_allow_italics = 1
-colo one
+colo unicon
