@@ -92,6 +92,10 @@ A set of Vim, Git, Terminal/Shell, etc. configuration files.
   ```
 
 * [onedark.vim](https://github.com/joshdick/onedark.vim) `let g:onedark_terminal_italics=1`
+* [neodark](https://github.com/KeitaNakamura/neodark.vim)
+* [nord](https://github.com/arcticicestudio/nord-vim)
+* [OceanicNext](https://github.com/mhartington/oceanic-next)
+* [quantum](https://github.com/tyrannicaltoucan/vim-quantum)
 * [synthwave.vim](https://github.com/exitface/synthwave.vim)
 * [vim-material](https://github.com/hzchirs/vim-material)
 * [yowish](https://github.com/KabbAmine/yowish.vim)
