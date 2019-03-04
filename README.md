@@ -122,7 +122,8 @@ Collections:
 * Plug 'mkitt/tabline.vim'      --> Display Tab number, better rendering of tabs
 * Plug 'majutsushi/tagbar'      --> displays tags in a window, in other words "Outline"
 * Plug 'junegunn/vim-emoji'     --> Emoji in Vim
-* Plug 'https://github.com/neoclide/coc.nvim' --> Intellisense engine for vim8 & neovim, full language server protocol support as VSCode
+* Plug 'neoclide/coc.nvim'      --> Intellisense engine for vim8 & neovim, full language server protocol support as VSCode
+* Plug 'romainl/vim-qf'         --> collection of settings, commands and mappings put together to make working with the location list/window and the quickfix list/window smoother
 
     ```
     Plug 'neoclide/coc.nvim', {'tag': '*', 'do': { -> coc#util#install()}}
