@@ -162,32 +162,26 @@ Collections:
 
 ## Fonts
 
-* [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) | [homepage](https://www.ibm.com/plex/) | [Get Plex](https://github.com/IBM/plex/releases/tag/v1.0.2)
 * `Source Code Pro Regular` | [homepage](https://adobe-fonts.github.io/source-code-pro/)
 * `SF Mono Regular`
+* `Droid Sans Mono`
+* [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono)
+* `Ubuntu Mono`
+* `Hack`
+* [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) | [homepage](https://www.ibm.com/plex/) | [Get Plex](https://github.com/IBM/plex/releases/tag/v1.0.2)
 * `Fira Mono` [\[1\]](https://github.com/bBoxType/FiraSans/tree/master/Fira_Mono_3_2/Fonts/FiraMono_WEB_32) | [\[2\]](https://fonts.google.com/specimen/Fira+Mono)
 * [Monaco](https://github.com/todylu/monaco.ttf)
 * [Monego](https://github.com/cseelus/monego) # nice curved font, similar to Monaco
-* `Hack`
-* `Droid Sans Mono`
 * `Menlo`
 * `Edlo`
 * `Consolas`
 * `Inconsolata`
-* [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono)
-* `Ubuntu Mono`
 * `Monofur`
 * [Hermit](https://pcaro.es/p/hermit/) # необычный, уникальный
 * [Nitti PX](https://nomail.com.ua/font-page/31424?name=NittiPX-Normal)
 * [Space Mono](https://fonts.google.com/specimen/Space+Mono)
 * [ProFfontIIx Nerd Mono](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/ProFont/profontiix) # очешь просторный, начертание необычное
 * `Terminus`
-* [Oldschool PC Fonts](https://int10h.org/oldschool-pc-fonts/fontlist/)
-  - `PxPlus_IBM_VGA9` # более разряженный по высоте нежели EGA9
-  - `PxPlus_IBM_EGA9`
-  - `PxPlus_IBM_EGA8` # EGA9 более разряженный по ширине нежели EGA8
-  - `PxPlus_IBM_VGA8`
-  - `PxPlus VGA SquaarePx`
 
 [Improve Font Rendering on Debian 8 By Installing Infinality and Ubuntu Fonts](https://www.linuxbabe.com/desktop-linux/improve-font-rendering-on-debian-8-by-install-infinality-and-google-fonts) describes how to use **OSX** style
 
