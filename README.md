@@ -75,14 +75,19 @@ A set of Vim, Git, Terminal/Shell, etc. configuration files.
 * termschool
 * [Spacegray](https://github.com/ajh17/Spacegray.vim)
 * [base16](http://chriskempson.com/projects/base16/)
-  - base16-railscasts
+  - base16-atelier-lakeside-light
   - base16-default-dark
-  - base16-tomorrow-night
+  - base16-eighties
   - base16-ocean
   - base16-oceanicnext
+  - base16-railscasts
+  - base16-tomorrow
+  - base16-tomorrow-night
 * [fahrenheit](https://github.com/fcpg/vim-fahrenheit)
 * [farout](https://github.com/fcpg/vim-farout)
 * [one](https://github.com/rakr/vim-one) `set background=dark`
+* [space_vim_theme](https://github.com/liuchengxu/space-vim-theme)
+* [scheakur](https://github.com/scheakur/vim-scheakur)
 
   ```
   set bg=dark " light
