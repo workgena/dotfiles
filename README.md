@@ -28,7 +28,7 @@ A set of Vim, Git, Terminal/Shell, etc. configuration files.
 * [materialtheme](https://github.com/gwutz/vim-materialtheme)
 * codeschool
 * underwater-mod
-* badwolf
+* [badwolf](https://github.com/sjl/badwolf)
 * blue (Out of the box)
 * [nachtleben](https://github.com/schickele/vim-nachtleben)
 * herokudoc
@@ -71,7 +71,6 @@ A set of Vim, Git, Terminal/Shell, etc. configuration files.
 * [tender](https://github.com/jacoborus/tender.vim)
 * spring-night
 * iceberg
-* slate
 * termschool
 * [Spacegray](https://github.com/ajh17/Spacegray.vim)
 * [base16](http://chriskempson.com/projects/base16/)
