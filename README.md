@@ -25,7 +25,6 @@ A set of Vim, Git, Terminal/Shell, etc. configuration files.
 * [falcon](https://github.com/fenetikm/falcon)
 * xoria256
 * [seoul256](https://github.com/junegunn/seoul256.vim) `let g:seoul256_background = 233`
-* [materialtheme](https://github.com/gwutz/vim-materialtheme)
 * codeschool
 * underwater-mod
 * [badwolf](https://github.com/sjl/badwolf)
@@ -102,6 +101,8 @@ A set of Vim, Git, Terminal/Shell, etc. configuration files.
 * [quantum](https://github.com/tyrannicaltoucan/vim-quantum)
 * [synthwave.vim](https://github.com/exitface/synthwave.vim)
 * [vim-material](https://github.com/hzchirs/vim-material)
+* [material](https://github.com/kaicataldo/material.vim)
+* [palenight](https://github.com/drewtempelmeyer/palenight.vim)
 * [yowish](https://github.com/KabbAmine/yowish.vim)
 * [duoduo](https://github.com/Yggdroot/duoduo)
 * [escuro](https://github.com/fortes/vim-escuro)
