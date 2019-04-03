@@ -169,10 +169,12 @@ Collections:
 * `Ubuntu Mono`
 * `Hack`
 * [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) | [homepage](https://www.ibm.com/plex/) | [Get Plex](https://github.com/IBM/plex/releases/tag/v1.0.2)
-* `Fira Mono` [\[1\]](https://github.com/bBoxType/FiraSans/tree/master/Fira_Mono_3_2/Fonts/FiraMono_WEB_32) | [\[2\]](https://fonts.google.com/specimen/Fira+Mono)
+* [Anka/Coder](https://fontlibrary.org/en/font/anka-coder)
+* [Meslo](https://github.com/halyard/font-meslo-powerline) # Customized version of Apple's Menlo font
 * [Monaco](https://github.com/todylu/monaco.ttf)
 * [Monego](https://github.com/cseelus/monego) # nice curved font, similar to Monaco
 * `Menlo`
+* `Fira Mono` [\[1\]](https://github.com/bBoxType/FiraSans/tree/master/Fira_Mono_3_2/Fonts/FiraMono_WEB_32) | [\[2\]](https://fonts.google.com/specimen/Fira+Mono)
 * `Edlo`
 * `Consolas`
 * `Inconsolata`
