@@ -183,6 +183,7 @@ Collections:
 * [ProFfontIIx Nerd Mono](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/ProFont/profontiix) # очешь просторный, начертание необычное
 * `Terminus`
 
+[Programming font comparison](http://www.s9w.io/font_compare/)
 [Improve Font Rendering on Debian 8 By Installing Infinality and Ubuntu Fonts](https://www.linuxbabe.com/desktop-linux/improve-font-rendering-on-debian-8-by-install-infinality-and-google-fonts) describes how to use **OSX** style
 
 ## Vim articles, cheat sheets, tutorials
