@@ -164,6 +164,7 @@ Collections:
 
 * `Source Code Pro Regular` | [homepage](https://adobe-fonts.github.io/source-code-pro/)
 * `SF Mono Regular`
+* [Cousine](https://fonts.google.com/specimen/Cousine)
 * `Droid Sans Mono`
 * [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono)
 * `Ubuntu Mono`
