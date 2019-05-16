@@ -1,0 +1,14 @@
+{
+    "editor.fontSize": 20,
+    "editor.fontFamily": "Source Code Pro",
+    "vscode_custom_css.imports": [
+        "file:///home/gmalyy/projects/synthwave84.css"
+    ],
+    "vscode_custom_css.policy": true,
+    "files.insertFinalNewline": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.java.completionsEnabled": false,
+    "vsintellicode.python.completionsEnabled": false,
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.colorTheme": "SynthWave '84",
+}
