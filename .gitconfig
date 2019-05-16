@@ -5,8 +5,11 @@
 [alias]
   s = status
   d = diff
+  a = add
   c = commit
   co = commit
 [core]
   editor = nvim
   excludesfile = ~/.gitignore
+[push]
+  default = simple
