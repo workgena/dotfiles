@@ -35,6 +35,7 @@ Plug 'ervandew/supertab'        " <Tab> behaves like <CTRL+n>
 Plug 'junegunn/vim-easy-align'
 Plug 'majutsushi/tagbar'
 Plug 'thaerkh/vim-workspace'    " Vim session; auto-save(better then `vim-scripts/vim-auto-save`)
+Plug 'Raimondi/delimitMate'     " auto-completion for quotes, parens, brackets, etc. aka auto-pairs
 Plug 'tpope/vim-endwise'
 Plug 'w0rp/ale'                 " async linter
 Plug 'yuttie/comfortable-motion.vim'
