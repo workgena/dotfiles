@@ -2,36 +2,13 @@ call plug#begin('~/.vim/plugged')
 
 " Appearance
 
-Plug 'KabbAmine/yowish.vim'
-Plug 'NLKNguyen/papercolor-theme'
-Plug 'Yggdroot/duoduo'
-Plug 'ajh17/Spacegray.vim'
-Plug 'andbar-ru/vim-unicon'
-Plug 'arcticicestudio/nord-vim'
-Plug 'ayu-theme/ayu-vim'
-Plug 'chriskempson/base16-vim'
-Plug 'exitface/synthwave.vim'
-Plug 'fortes/vim-escuro'
-Plug 'jacoborus/tender.vim'
-Plug 'joshdick/onedark.vim'
-Plug 'lmintmate/blue-mood-vim'
 Plug 'mhartington/oceanic-next'
-Plug 'morhetz/gruvbox'
-Plug 'nanotech/jellybeans.vim'
-Plug 'patstockwell/vim-monokai-tasty' " particularly good for Javascript
-Plug 'rakr/vim-one'
-Plug 'rakr/vim-two-firewatch'
-Plug 'romainl/Apprentice'
-Plug 'schickele/vim-nachtleben'
-Plug 'srcery-colors/srcery-vim'
-Plug 'trevordmiller/nova-vim'
-Plug 'trusktr/seti.vim'
 
 " Tools
 
 Plug '907th/vim-auto-save'
 Plug 'ctrlpvim/ctrlp.vim'
-Plug 'ervandew/supertab'        " <Tab> behaves like <CTRL+n>
+" Plug 'ervandew/supertab'        " <Tab> behaves like <CTRL+n>
 Plug 'junegunn/vim-easy-align'
 Plug 'majutsushi/tagbar'
 Plug 'thaerkh/vim-workspace'    " Vim session; auto-save(better then `vim-scripts/vim-auto-save`)
@@ -40,26 +17,25 @@ Plug 'tpope/vim-endwise'
 Plug 'w0rp/ale'                 " async linter
 Plug 'yuttie/comfortable-motion.vim'
 Plug 'editorconfig/editorconfig-vim'
-Plug 'andymass/vim-matchup'     " Fixes JSX <tag> matching
-Plug 'Yggdroot/indentLine'
 Plug 'junegunn/goyo.vim'
+Plug 'janko-m/vim-test'
 
 " Languages support
 
-Plug 'janko-m/vim-test'
-" Plug 'elixir-editors/vim-elixir'
+Plug 'elixir-editors/vim-elixir'
 " Plug 'gabrielelana/vim-markdown'
 
 " Ruby language support
 
 Plug 'vim-ruby/vim-ruby'
 Plug 'tpope/vim-rails'
-" Plug 'thoughtbot/vim-rspec'
 
 " JavaScript
 
-Plug 'pangloss/vim-javascript'
-Plug 'mxw/vim-jsx'
+" Plug 'pangloss/vim-javascript'
+" Plug 'othree/yajs.vim' " Yet Another JavaScript Syntax, is not good on performance
+" Plug 'mxw/vim-jsx'
+Plug 'neoclide/vim-jsx-improve'
 Plug 'elzr/vim-json'
 
 " HTML5 CSS3
@@ -76,6 +52,8 @@ Plug 'ipod825/vim-tagjump'     " open a new tab when you jump with tags
 
 call plug#end()
 
+" Plugin vim-easytags
+let g:easytags_async=1 " enable asynchronous tags file updates in background, fixes 'ruler disappearing'
 
 " nnoremap <Space> :CtrlPBuffer<CR>
 
@@ -88,6 +66,7 @@ let ruby_operators = 1
 set completeopt+=longest
 
 " Plugin ale
+let g:ale_sign_column_always = 1
 let g:ale_set_highlights = 0    " disabling highlighting
 let g:ale_linters = { 'javascript': ['eslint'] }
  
@@ -120,8 +99,9 @@ let g:user_emmet_install_global = 1
 " File navigation
 "============================================================
 set wildmenu
-set wildmode=list:longest,full  " hit `Tab` twice in command mode
+" set wildmode=list:longest,full  " hit `Tab` twice in command mode
 set path=**
+set wildignore+=*/tmp/*,*/vendor/*,*/node_modules/*,*/.git/*,*/.idea/*
 set viminfo='5                  " browse oldfiles, display N-last opened
 let g:netrw_list_hide= '^\.\w'  " hide '.*' entytly in file-navigator
 
@@ -131,7 +111,6 @@ let g:netrw_list_hide= '^\.\w'  " hide '.*' entytly in file-navigator
 syntax enable
 set nocompatible                " choose no compatibility with legacy vi
 set cursorline
-set showmatch                   " highlight matching [{()}]
 set noswapfile
 set encoding=utf-8
 filetype plugin indent on       " load file type plugins + indentation
@@ -139,7 +118,11 @@ set hlsearch
 set incsearch
 set iskeyword+=-                " treat dash separated words as a word text-object
 
-set showmatch                   " highlight matching [{()}]
+set title
+set titlestring=Vim\ -\ %t
+" set titlestring=Vim:\ %f\ %h%r%m
+" set ttimeoutlen=10
+
 set noswapfile
 set encoding=utf-8
 
@@ -155,11 +138,12 @@ set expandtab                   " use spaces, not tabs (optional)
 set list
 set listchars=tab:>-
 
-" autocmd FileType markdown set linebreak
-autocmd FileType gitcommit set spell
+"============================================================
+" Spell checking
+"============================================================
 
-" Spell check highlight
-highlight SpellBad ctermfg=009 ctermbg=011 guifg=#FC7675 guibg=#FED7D7
+autocmd FileType gitcommit set spell
+" hi SpellBad ctermfg=015 ctermbg=000 cterm=none guifg=#00FF00 guibg=#FF0000 gui=none
 set spellfile=$HOME/.vim/spell/en.utf-8.add
 
 "============================================================
@@ -182,7 +166,7 @@ nmap <Leader>q :quitall<CR>
 " :set nowrap/wrap
 nmap <F2> :set wrap!<CR>
 " :Explore
-nmap <F4> :Texplore<CR>
+nmap <F4> :Explore<CR>
 " Spell-check set to F6:
 map <F6> :setlocal spell!<CR>
 " <Del> removes text wihtout putting it to register
@@ -192,69 +176,22 @@ nmap <C-Down> gT
 nmap <C-Up> gt
 " Command :noh
 nmap <Leader><Leader> :nohlsearch<CR>
+nmap <Leader>] :
 
 " open TODO-file in current project
 nmap <Space> :tabe TODO.md<CR>
+
+" :bw - buffer wipe
+nmap <Leader>x :bw<CR>
 
 "============================================================
 " Color scheme
 "============================================================
 if has('termguicolors')
   set termguicolors " 24-bit terminal
+  set t_ut=
 endif
 
-" let g:vim_monokai_tasty_italic = 1
-" colo vim-monokai-tasty
-
-" let g:onedark_terminal_italics=1
-" color onedark
-
-" let g:spacegray_underline_search = 0
-" let g:spacegray_use_italics = 1
-" colo spacegray
-
-" let ayucolor="light"
-" color ayu
-
-" set background=light
-" let g:gruvbox_contrast_light='soft'
-" let g:gruvbox_contrast_dark='soft'
-" let g:gruvbox_italic=1
-" let g:gruvbox_guisp_fallback='bg'
-" color gruvbox
-
-" colo synthwave
-" colo blue-mood
-" colo duoduo
-" colo escuro
-" colo jellybeans
-" colo nachtleben
-" colo nova
-" colo tender
-
-" set bg=light
-" let g:one_allow_italics = 1
-" colo one
-
-" let g:srcery_italic = 1
-" colo srcery
-
-" colo apprentice
-" colo yowish
-" colo nord
-
-" set background=light
-" let g:two_firewatch_italics=1
-" colo two-firewatch
-
-" colo base16-eighties
-
-" let g:oceanic_next_terminal_bold = 1
-" let g:oceanic_next_terminal_italic = 1
-" colo OceanicNext
-
-" set bg=light
-" colo PaperColor
-
-set bg=light
-colo unicon
+let g:oceanic_next_terminal_bold = 1
+let g:oceanic_next_terminal_italic = 1
+colo OceanicNext
