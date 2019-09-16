@@ -14,7 +14,7 @@ A set of Vim, Git, Terminal/Shell, etc. configuration files.
   let g:gruvbox_guisp_fallback='bg'
   color gruvbox
   ```
-
+* [gruvbox-material](https://github.com/sainnhe/gruvbox-material)
 * [deus](https://github.com/ajmwagar/vim-deus)
 * [nova](https://github.com/trevordmiller/nova-vim)
 * [ayu](https://github.com/ayu-theme/ayu-vim)
