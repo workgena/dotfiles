@@ -101,6 +101,7 @@ A set of Vim, Git, Terminal/Shell, etc. configuration files.
 * [OceanicNext](https://github.com/mhartington/oceanic-next)
 * [quantum](https://github.com/tyrannicaltoucan/vim-quantum)
 * [synthwave.vim](https://github.com/exitface/synthwave.vim)
+* [synthwave84](https://github.com/artanikin/vim-synthwave84)
 * [vim-material](https://github.com/hzchirs/vim-material)
 * [material](https://github.com/kaicataldo/material.vim)
 * [palenight](https://github.com/drewtempelmeyer/palenight.vim)
@@ -140,7 +141,10 @@ Collections:
     :CocInstall coc-solargraph
     ```
 
+## SynthWave
 
+* [SynthWave '84 - VS Code theme](https://github.com/robb0wen/synthwave-vscode)
+  > Synthwave inspired colour theme for VS Code 🌅🕶
 
 
 ## Terminal [base16](https://github.com/chriskempson/base16) favourites themes
