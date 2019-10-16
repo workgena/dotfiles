@@ -7,13 +7,16 @@ A set of Vim, Git, Terminal/Shell, etc. configuration files.
 * [gruvbox](https://github.com/morhetz/gruvbox)
 
   ```
-  set background=light " dark
+  " Nice-looking configuration
+  set background=light
   let g:gruvbox_contrast_light='soft'
   let g:gruvbox_contrast_dark='soft'
   let g:gruvbox_italic=1
   let g:gruvbox_guisp_fallback='bg'
   color gruvbox
   ```
+
+* [cosmic_latte](https://github.com/nightsense/cosmic_latte)
 * [gruvbox-material](https://github.com/sainnhe/gruvbox-material)
 * [deus](https://github.com/ajmwagar/vim-deus)
 * [nova](https://github.com/trevordmiller/nova-vim)
