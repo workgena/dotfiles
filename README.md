@@ -53,6 +53,7 @@ A set of Vim, Git, Terminal/Shell, etc. configuration files.
 * matrix
 * cobalt2
 * lightcolors
+* [two-firewatch](https://github.com/rakr/vim-two-firewatch)
 * laederon
 * gor
 * golden
