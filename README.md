@@ -112,6 +112,7 @@ A set of Vim, Git, Terminal/Shell, etc. configuration files.
 * [yowish](https://github.com/KabbAmine/yowish.vim)
 * [duoduo](https://github.com/Yggdroot/duoduo)
 * [escuro](https://github.com/fortes/vim-escuro)
+* [substrata](https://github.com/arzg/vim-substrata)
 
 Collections:
 
