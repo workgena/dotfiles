@@ -33,6 +33,7 @@ A set of Vim, Git, Terminal/Shell, etc. configuration files.
 * underwater-mod
 * [badwolf](https://github.com/sjl/badwolf)
 * blue (Out of the box)
+* [sitruuna](https://github.com/eemed/sitruuna.vim)
 * [nachtleben](https://github.com/schickele/vim-nachtleben)
 * herokudoc
 * rootwater
