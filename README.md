@@ -37,6 +37,7 @@ A set of Vim, Git, Terminal/Shell, etc. configuration files.
 * [nachtleben](https://github.com/schickele/vim-nachtleben)
 * herokudoc
 * rootwater
+* [darcula](https://github.com/doums/darcula)
 * dracula
 * Tomorrow-Night-Blue
 * oxeded
