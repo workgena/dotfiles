@@ -35,6 +35,7 @@ A set of Vim, Git, Terminal/Shell, etc. configuration files.
 * blue (Out of the box)
 * [sitruuna](https://github.com/eemed/sitruuna.vim)
 * [nachtleben](https://github.com/schickele/vim-nachtleben)
+* [bluewery](https://github.com/relastle/bluewery.vim)
 * herokudoc
 * rootwater
 * [darcula](https://github.com/doums/darcula)
