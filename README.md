@@ -23,6 +23,7 @@ A set of Vim, Git, Terminal/Shell, etc. configuration files.
 * [ayu](https://github.com/ayu-theme/ayu-vim)
 * [srcery](https://github.com/srcery-colors/srcery-vim)
 * [blue-mood](https://github.com/lmintmate/blue-mood-vim)
+* [sitruuna](https://github.com/eemed/sitruuna.vim)
 * railscasts
 * [edge](https://github.com/sainnhe/edge)
 * [jelleybeans](https://github.com/nanotech/jellybeans.vim)
@@ -33,9 +34,9 @@ A set of Vim, Git, Terminal/Shell, etc. configuration files.
 * underwater-mod
 * [badwolf](https://github.com/sjl/badwolf)
 * blue (Out of the box)
-* [sitruuna](https://github.com/eemed/sitruuna.vim)
 * [nachtleben](https://github.com/schickele/vim-nachtleben)
 * [bluewery](https://github.com/relastle/bluewery.vim)
+* [night-owl](https://github.com/haishanh/night-owl.vim)
 * herokudoc
 * rootwater
 * [darcula](https://github.com/doums/darcula)
