@@ -24,6 +24,7 @@ A set of Vim, Git, Terminal/Shell, etc. configuration files.
 * [srcery](https://github.com/srcery-colors/srcery-vim)
 * [blue-mood](https://github.com/lmintmate/blue-mood-vim)
 * [sitruuna](https://github.com/eemed/sitruuna.vim)
+* [sonokai](https://github.com/sainnhe/sonokai)
 * railscasts
 * [edge](https://github.com/sainnhe/edge)
 * [jelleybeans](https://github.com/nanotech/jellybeans.vim)
