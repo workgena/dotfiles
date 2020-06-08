@@ -66,12 +66,24 @@ Plug 'mattn/emmet-vim'
 
 " Autocompletion, Intellisense
 
-Plug 'neoclide/coc.nvim', {'tag': '*', 'do': { -> coc#util#install()}}
+Plug 'neoclide/coc.nvim', {'branch': 'release', 'do': { -> coc#util#install()}}
 Plug 'xolox/vim-misc'
 Plug 'xolox/vim-easytags'
 Plug 'ipod825/vim-tagjump'     " open a new tab when you jump with tags
 
 call plug#end()
+
+" Coc plugin
+let g:coc_global_extensions = [
+  \ 'coc-css',
+  \ 'coc-elixir',
+  \ 'coc-eslint',
+  \ 'coc-json',
+  \ 'coc-pairs',
+  \ 'coc-prettier',
+  \ 'coc-solargraph',
+  \ 'coc-tsserver',
+  \ ]
 
 " Plugin vim-easytags
 let g:easytags_async=1 " enable asynchronous tags file updates in background, fixes 'ruler disappearing'
