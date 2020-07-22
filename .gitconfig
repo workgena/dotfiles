@@ -8,6 +8,7 @@
   a = add
   c = commit
   co = commit
+  ch = checkout
 [core]
   editor = nvim
   excludesfile = ~/.gitignore
