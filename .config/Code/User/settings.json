@@ -1,8 +1,9 @@
 {
     "editor.fontSize": 16,
-    "window.zoomLevel": 1,
     "workbench.colorTheme": "SynthWave '84",
-    "editor.fontFamily": "Source Code Pro",
+    "window.zoomLevel": 1,
     "files.insertFinalNewline": true,
-    "editor.suggestSelection": "first"
+    "editor.suggestSelection": "first",
+    "files.trimFinalNewlines": true,
+    "editor.minimap.enabled": false
 }
