@@ -4,3 +4,6 @@
 # Vim plugins
 Session.vim
 .undodir
+
+# VSCode
+jsconfig.json
