@@ -1,9 +1,18 @@
 {
     "editor.fontSize": 16,
-    "workbench.colorTheme": "SynthWave '84",
-    "window.zoomLevel": 1,
     "files.insertFinalNewline": true,
     "editor.suggestSelection": "first",
     "files.trimFinalNewlines": true,
-    "editor.minimap.enabled": false
+    "editor.minimap.enabled": false,
+    "files.autoSave": "afterDelay",
+    "terminal.integrated.commandsToSkipShell": [
+        "-workbench.action.quickOpen"
+    ],
+    "editor.tabSize": 2,
+    "window.zoomLevel": 2,
+    "files.trimTrailingWhitespace": true,
+    "cSpell.enableFiletypes": [
+        "ruby"
+    ],
+    "workbench.colorTheme": "DesertEx"
 }
