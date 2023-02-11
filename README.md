@@ -177,7 +177,10 @@ Collections:
 
 ## Fonts
 
+[Gamified experience to help you find your true love of coding fonts!](https://www.codingfont.com/)
+
 [List of best Coding Fonts on CSS-Tricks](https://coding-fonts.css-tricks.com/)
+
 [Programming font comparison](http://www.s9w.io/font_compare/)
 
 <details>
